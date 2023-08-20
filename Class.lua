@@ -1,3 +1,10 @@
+--[[
+    Written by Gemryl Laxina on August 20 2023
+
+    Version 0.0.1
+]]
+
+
 local luatype = type; 
 function type (x)
     if luatype(x) == "table" and getmetatable(x) then 
